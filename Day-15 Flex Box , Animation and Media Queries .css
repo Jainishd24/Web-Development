@@ -1,0 +1,40 @@
+/* .parent{
+    height: 1000px;
+    background-color: red;
+    display: flex;
+    flex-direction: center;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+/* .child{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px dashed black;
+} */
+
+/* Animations */
+button{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: medium;
+    /* Transition Properties */
+    /* transition-delay: 250ms; */
+    /* transition-duration: 500ms; */
+    /* transition-property: background-color color; */
+    /* transition-timing-function: cubic-bezier(0, 0, 0.93, -0.05); */
+
+    /* There is a term transition where all this above forms of transition will be covered in one word only */
+    transition: all cubic-bezier(0, 0, 0.93, -0.05) 250ms 500ms;
+}
+
+button:hover{
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+}

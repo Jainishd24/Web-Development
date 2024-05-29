@@ -1,0 +1,49 @@
+/* Hover State */
+/* button:hover{
+    color: aqua;
+    background-color: black;
+    cursor: pointer;
+} */
+/* Active State
+button:active{
+    border: 5px solid red;
+} */
+/* Focus State */
+/* button:focus{
+    color: blue;
+    background-color: darkkhaki;
+} */
+/* Anchor un-visited link state */
+/* a:link{
+    color: red;
+} */
+/* a:visited{
+    color: darkgreen;
+} */
+
+/* span{
+    padding: 10px;
+    margin: 10px;
+    background-color:lightskyblue;
+} */
+
+/* nth child */
+/* span:nth-child(3){
+    background-color: yellow;
+} */
+
+/* styles for even child number */
+/* span:nth-child(even){
+    background-color:brown;
+} */
+/* styles for odd child number */
+/* span:nth-child(odd){
+    background-color:brown;
+} */
+
+h1::before{
+    content:"Hello ";
+}
+h1::after{
+    content:" good morning ";
+}

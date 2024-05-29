@@ -1,0 +1,116 @@
+/* h1{
+    background-color: black;
+    color: red;
+    border: 2px dashed black; */
+    /* padding-left: 15px; */
+    /* margin-left: 5px; */
+    /* margin: 0 0 0 50px;
+} */
+
+/* Block */
+
+/* .displayInCss1{
+    display: block;
+    background-color: black;
+    color: aqua;
+}
+.displayInCss2{
+    display: block;
+    background-color: red;
+    color: white;
+}  */
+
+/* Inline */
+
+/* .displayInCss1{
+    display: inline;
+    background-color: black;
+    color: aqua;
+}
+.displayInCss2{
+    display: inline;
+    background-color: black;
+    color: a;
+}   */
+
+/* Inline-Block */
+/* 
+.displayInCss1{
+    display: inline-block;
+    background-color: black;
+    color: aqua;
+}
+.displayInCss2{
+    display: inline-block;
+    background-color: black;
+    color: aquamarine;
+    height: 80px;
+    width: 80px;
+}   */
+
+/* Position In CSS */
+
+/* 
+1. Static:
+ */
+/* div{
+    position: static;
+    color: cyan;
+    background-color: crimson;
+    border: 2px dashed black;
+} */
+
+/* 
+2.Relative:
+*/
+/* div{
+    position: relative;
+    color: cyan;
+    background-color: crimson;
+    border: 2px dashed black;
+    top: 30px;
+    left: 15px;
+} */
+
+/* 
+3.Fixed
+*/
+/* div{
+    position: fixed;
+    color: cyan;
+    background-color: crimson;
+    border: 2px dashed black;
+    top: 30px;
+    left: 15px;
+} */
+
+/* 
+4.Absolute
+*/
+
+/* #parent{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+}
+.student{
+    position: absolute;
+    color: cyan;
+    background-color: crimson;
+    border: 2px dashed black;
+    top: 15px;
+    left: 15px;
+} */
+
+/* 
+5.Sticky:
+*/
+/* .student{
+    position: sticky;
+    color: cyan;
+    background-color: crimson;
+    border: 2px dashed black;
+    top: 15px;
+    left: 15px;
+} */

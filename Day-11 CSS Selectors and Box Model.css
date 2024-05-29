@@ -1,0 +1,46 @@
+/* 1. Element Selector  */
+/* h1{
+    color: red;
+    background-color: black;
+}
+p{
+    color: red;
+    background-color: black;
+} */
+/* 2. Element Selector List */
+/* h1,p{
+    color: red;
+    background-color: black;
+} */
+/* Universal Selector
+*{
+    color: yellow;
+    border: 2px dotted red;
+    background-color: black;
+} */
+/* ID Selector */
+/* #h1-1{
+    color: yellow;
+    border: 2px dotted red;
+    background-color: black;
+} */
+/* Class Selector */
+/* .h1ClassSelector{
+    color: blue;
+    border: 2px solid red;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+} */
+/* Descendant Selector */
+/* li a{
+    color: white;
+    background-color: black;
+} */
+/* Box Model */
+h4{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
